@@ -1,0 +1,36 @@
+#sidebar-wrapper{
+    width: 18rem;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    
+}
+.sidebar-heading{
+    padding:3rem;
+    text-align: center;
+    color: #fff;
+}
+.list-group .fas{
+    padding-right:1rem;
+}
+.list-group-item{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ddd;
+}
+#sidebar-wrapper .list-group{
+    width: 18rem;
+}
+@media (max-width:867px){
+    #sidebar-wrapper{
+        margin-left: -18rem;
+    }
+    #wrapper .toggled{
+        margin-left:0;
+    }
+}
+@media (min-width:867px){
+    #wrapper .toggled{
+        margin-left: -18rem;
+    }
+}
